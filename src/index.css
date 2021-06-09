@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    /* background-image: linear-gradient(to right bottom, #00F260, #0575E6); */
+    background-image: linear-gradient(to right bottom, #313B47,#00C8AA);
+    background-attachment: fixed;
+    color: black;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(#313B47,#00C8AA);
+}
+
+a{
+    text-decoration: none;
+    color: #354548;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.app__container{
+    padding-top: 50px;
+}
+
+.app__row{
+    height: 90vh;
+}
+
+.app__main-content{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 0 10px black;
+}
+
+
+/* navbar */
+.navbar__items{
+    display: flex;
+}
+
+.navbar__active{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #354358;
+    border-bottom: 4px solid #00C8AA;
+}
+
+.navbar__item{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #354358;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.navbar__item:hover{
+    background: -webkit-linear-gradient(#00F260, #0575E6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 600px) {
+    .app__main-content {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar__active {
+        font-size: 1.5rem;
+    }
+
+    .navbar__item {
+        font-size: 1rem;
+    }
+}

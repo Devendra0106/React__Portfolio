@@ -1,0 +1,25 @@
+/* about */
+.about{
+    padding-top: 20px;
+    margin: -25px;
+}
+
+.about__intro{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.about__container{
+    background-color: #dbdddf;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+}
+
+.about__heading{
+    font-size: 25px;
+    font-weight: 700;
+    color: #354358;
+    margin-left: 10px;
+}

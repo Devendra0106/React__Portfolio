@@ -1,0 +1,21 @@
+/* projects */
+.projects{
+    height: 72vh;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.project__navbar{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.project__navbar>div{
+    margin: 0 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.projects__navbar-active{
+    border-bottom: 3px solid #88ecdd;
+}

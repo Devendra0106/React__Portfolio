@@ -1,0 +1,30 @@
+/* resume */
+.resume {
+    height: 72vh;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.resume-card__heading,
+.resume-skills__heading {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #354538;
+}
+
+.resume-card__body {
+    margin-top: 10px;
+}
+
+.resume-card__title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.resume-card__name {
+    font-size: 16px;
+}
+
+.resume-card__details {
+    font-size: 0.9rem;
+}
